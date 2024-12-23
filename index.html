@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vikram Singh | Full-Stack Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark  fixed-top" id="darkMode"  >
+      <div class="container">
+        <a class="navbar-brand logo" href="#">Vikram.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item "><a class="nav-link active" href="#home">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero d-flex align-items-center" id="home" >
+      <div class="container text-center">
+        <h1 class="display-3" data-aos="fade-up">
+          Hi, I'm <span class=" fw-bold ">Vikram Singh</span>
+
+        </h1>
+        <p class="lead" data-aos="fade-up" data-aos-delay="200">
+          A Full-Stack Developer crafting scalable and dynamic applications.
+        </p>
+        <div data-aos="fade-up" data-aos-delay="400" class="buttons">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="/assets/resume/Vikram's Resume.pdf" class="btn"
+            >Resume</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section  -->
+    <section id="about" class="py-5  " >
+      <div class="container my-5 py-3">
+        <div class="row align-items-center">
+          <!-- About Section -->
+          <div class="col-md-6" data-aos="fade-right">
+            <img
+              src="assets/portfolio.png"
+              alt="About Me"
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="col-md-6 " data-aos="fade-left" id="about-text">
+            <h1 class="text-center mb-5" data-aos="fade-up"> About Me </h1>
+            <p class="lead" >
+              Hello! I'm <strong>Vikram Singh</strong>, a passionate Full-Stack
+              Developer with a knack for building efficient and scalable web
+              applications.
+            </p>
+            <p>
+              I specialize in crafting dynamic, responsive, and accessible web
+              solutions. Whether it's creating seamless user interfaces or
+              designing robust server-side logic, I thrive on solving challenges
+              that drive innovation.
+            </p>
+            <p>
+              Beyond coding, I enjoy learning new technologies, contributing to
+              open-source projects, and exploring the latest trends in software
+              development.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Skills Section -->
+      <h2 class="mt-5 text-center">Skills</h2>
+      <div class="container my-5 skill">
+        <div class="row g-4">
+          <!-- Frontend Card -->
+          <div class="col-md-4" data-aos="flip-left">
+            <div class="card h-100 shadow rounded border-0">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-4 " id="skill">
+                  <i class="fas fa-laptop-code fa-2x mb-3"></i><br> Frontend Development
+                </h5>
+                <ul class="list-unstyled">
+                  <li class="mb-2">
+                    <i class="fab fa-html5 text-danger fa-lg"></i>
+                    <span class="ms-2 fw-bold">HTML</span>
+                  </li>
+                  <li class="mb-2">
+                    <i class="fab fa-css3-alt text-primary fa-lg"></i>
+                    <span class="ms-2 fw-bold">CSS</span>
+                  </li>
+                  <li class="mb-2">
+                    <i class="fab fa-js text-warning fa-lg"></i>
+                    <span class="ms-2 fw-bold">JavaScript</span>
+                  </li>
+                  <li class="mb-2">
+                    <i class="fab fa-react text-info fa-lg"></i>
+                    <span class="ms-2 fw-bold">React</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Backend Card -->
+          <div class="col-md-4" data-aos="flip-left" data-aos-delay="200">
+            <div class="card h-100 shadow rounded border-0">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-4 " id="skill">
+                  <i class="fas fa-server fa-2x mb-3"></i><br> Backend Development
+                </h5>
+                <ul class="list-unstyled">
+                  <li class="mb-2">
+                    <i class="fab fa-node text-success fa-lg"></i>
+                    <span class="ms-2 fw-bold">Node.js</span>
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-database text-warning fa-lg"></i>
+                    <span class="ms-2 fw-bold">MongoDB</span>
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-cloud text-info fa-lg"></i>
+                    <span class="ms-2 fw-bold">Express.js</span>
+                  </li>
+                  <li class="mb-2">
+                    <i class="fab fa-python text-secondary fa-lg"></i>
+                    <span class="ms-2 fw-bold">Python</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Tools Card -->
+          <div class="col-md-4" data-aos="flip-left" data-aos-delay="400">
+            <div class="card h-100 shadow rounded border-0">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-4 " id="skill">
+                  <i class="fas fa-tools fa-2x mb-3"></i><br> Tools & Platforms
+                </h5>
+                <ul class="list-unstyled">
+                  <li class="mb-2">
+                    <i class="fab fa-git-alt text-danger fa-lg"></i>
+                    <span class="ms-2 fw-bold">Git</span>
+                  </li>
+                  <li class="mb-2">
+                    <i class="fab fa-docker text-primary fa-lg"></i>
+                    <span class="ms-2 fw-bold">Docker</span>
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-code-branch text-info fa-lg"></i>
+                    <span class="ms-2 fw-bold">GitHub</span>
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-terminal text-dark fa-lg"></i>
+                    <span class="ms-2 fw-bold">CLI</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- Projects Section Start  -->
+    <section id="projects" class="py-5 ">
+      <div class="container py-5">
+        <h1 class="text-center  mb-5" data-aos="fade-up">Projects</h1>
+        <!-- Project 1 -->
+        <div class="card my-5 " data-aos="fade-up" data-aos-delay="100" >
+          <div class="row g-0 align-items-center">
+            <div class="col-md-4">
+              <img src="/assets/yelpcamp.jpg" class="img-fluid rounded-start" alt="yelpCamp">
+            </div>
+            <div class="col-md-8  ">
+              <div class="card-body ">
+                <h5 class="card-title ">YelpCamp</h5>
+                <p class="card-text">YelpCamp is a full-stack web application designed to connect camping enthusiasts with the best campsites. It allows users to browse, review, and add new campsites, fostering a vibrant community for outdoor adventurers. Built with Node.js, Express.js, MongoDB, and Bootstrap, YelCamp includes user authentication, dynamic routing, and a responsive UI. With features like real-time reviews, user-generated content, and secure login, YelCamp highlights my skills in backend development, database integration, and creating engaging user experiences.</p>
+                <a class="btn" role="button" href=" https://tranquil-wildwood-74179-c6fc1d1bfa7a.herokuapp.com/ " target="_blank">Live Demo</a>
+               <a class="btn mx-1" role="button" href="https://github.com/VikramSingh29/YelpCamp.git" target="_blank">Code</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card my-5 " data-aos="fade-up" data-aos-delay="100" >
+          <div class="row g-0 align-items-center">
+            <div class="col-md-4">
+              <img src="/assets/Notebook.jpg" class="img-fluid rounded-start" alt="notebook">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body ">
+                <h5 class="card-title ">Notebook</h5>
+                <p class="card-text">Notebook is a secure and user-friendly full-stack web application for managing personal notes efficiently. Built using React, Node.js, Express.js, and MongoDB, it provides features like user authentication, CRUD operations for notes, and a sleek, responsive interface styled with Bootstrap. With JWT-based authentication and real-time updates, Notebook ensures data privacy and seamless performance. This project showcases my expertise in building dynamic web applications, integrating frontend and backend technologies, and creating intuitive user experiences.</p>
+                <a class="btn" role="button" href="https://notebook-6299.onrender.com" target="_blank">Live Demo</a>
+                <a class="btn mx-1" role="button" href="https://github.com/VikramSingh29/Notebook.git" target="_blank">Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact Section  -->
+    <section id="contact" class="py-5 ">
+      <div class="container">
+        <h1 class="text-center mb-4 " data-aos="fade-up">Contact</h1>
+        <p class="text-center mb-5 " data-aos="fade-up" data-aos-delay="100">
+          Feel free to reach out via the form below or through the provided contact details.
+        </p>
+        <div class="row g-4">
+          <!-- Contact Details -->
+          <div class="col-md-6" data-aos="fade-right">
+            <div class="p-4 shadow rounded text-center">
+              <!-- Illustration -->
+              <img src="/assets/contact-3.svg" 
+                   alt="Contact Illustration" class="mb-4" style="width: 186px; height: auto;">
+          
+              <!-- Contact Details -->
+              <h5><i class="fas fa-phone-alt"></i> Phone</h5>
+              <p class="mb-4">+1(416)-276-9963</p>
+              <h5><i class="fas fa-envelope"></i> Email</h5>
+              <p class="mb-4">vikram141806@gmail.com</p>
+            </div>
+          </div>
+          
+    
+          <!-- Contact Form -->
+          <div class="col-md-6" data-aos="fade-left">
+            <form action="https://getform.io/f/ayvvoexb" method="post" class="p-4 shadow rounded bg-white">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" rows="4" class="form-control" placeholder="Your message" required></textarea>
+              </div>
+              <button type="submit" class="btn ">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section  -->
+    <footer class="footer bg-dark text-white py-3">
+      <div class="container text-center">
+        <p>&copy; 2024 Vikram Singh. All rights reserved.</p>
+        <p>
+          <a href="https://github.com/VikramSingh29" target="_blank" class="text-white text-decoration-none">
+            GitHub
+          </a> |
+          <a href="https://linkedin.com/in/vikram-singh-705159313" target="_blank" class="text-white text-decoration-none">
+            LinkedIn
+          </a> |
+          <a href="mailto:your-email@example.com" class="text-white text-decoration-none">
+            Contact
+          </a>
+        </p>
+      </div>
+    </footer>
+    
+    <script src="app.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
